@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<account-history>
+   <search>
+      <account>82102024980000810207161864</account>
+      <date since="2024-01-01" to="2024-01-31"/>
+      <filtering>Wszystkie</filtering>
+   </search>
+   <operations>
+      <operation>
+         <order-date>2024-01-29</order-date>
+         <exec-date>2024-01-31</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.60</amount>
+         <ending-balance curr="PLN">+1705.21</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-29</order-date>
+         <exec-date>2024-01-31</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834029113888445060 Lokalizacja : Adres : Piek.-Cukiernia Scigala Miasto : Katowice Kraj : POLSKA Data i czas operacji : 2024-01-29 Oryginalna kwota operacji : 8.40 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-8.40</amount>
+         <ending-balance curr="PLN">+1705.81</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-29</order-date>
+         <exec-date>2024-01-30</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078823550053 Numer telefonu : 48602666322 Lokalizacja : Adres : www.zalando.de &apos;Operacja : 00000078823550053 Numer referencyjny : 00000078823550053</description>
+         <amount curr="PLN">-430.99</amount>
+         <ending-balance curr="PLN">+1714.21</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-28</order-date>
+         <exec-date>2024-01-30</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078806990245 Numer telefonu : 48602666322 Lokalizacja : Adres : store.steampowered.com &apos;Operacja : 00000078806990245 Numer referencyjny : 00000078806990245</description>
+         <amount curr="PLN">-55.34</amount>
+         <ending-balance curr="PLN">+2145.20</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-28</order-date>
+         <exec-date>2024-01-30</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078805955609 Numer telefonu : 48602666322 Lokalizacja : Adres : store.steampowered.com &apos;Operacja : 00000078805955609 Numer referencyjny : 00000078805955609</description>
+         <amount curr="PLN">-55.34</amount>
+         <ending-balance curr="PLN">+2200.54</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-29</order-date>
+         <exec-date>2024-01-29</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Nazwa odbiorcy : MOBILE-TRAFFIC-DATA SP. Z O. O. Adres odbiorcy :  UL. DRUŻBICKIEGO 11 61-693 POZNAŃ Tytuł :  ZAKUP BILETU PARKINGOWEGO Referencje własne zleceniodawcy : 174195836851</description>
+         <amount curr="PLN">-36.07</amount>
+         <ending-balance curr="PLN">+2255.88</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-27</order-date>
+         <exec-date>2024-01-29</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.80</amount>
+         <ending-balance curr="PLN">+2291.95</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-27</order-date>
+         <exec-date>2024-01-29</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784027139006414461 Lokalizacja : Adres : ZABKA Z8161 K.1 Miasto : CZESTOCHOWA Kraj : POLSKA Data i czas operacji : 2024-01-27 Oryginalna kwota operacji : 3.20 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-3.20</amount>
+         <ending-balance curr="PLN">+2292.75</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-27</order-date>
+         <exec-date>2024-01-29</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834027113840089271 Lokalizacja : Adres : ASMB 34005 Miasto : Czestochowa Kraj : POLSKA Data i czas operacji : 2024-01-27 Oryginalna kwota operacji : 5.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-5.00</amount>
+         <ending-balance curr="PLN">+2295.95</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-27</order-date>
+         <exec-date>2024-01-29</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494028241530181151 Lokalizacja : Adres : MCDONALDS 10 Miasto : CZESTOCHOWA Kraj : POLSKA Data i czas operacji : 2024-01-27 Oryginalna kwota operacji : 34.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-34.00</amount>
+         <ending-balance curr="PLN">+2300.95</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-28</order-date>
+         <exec-date>2024-01-28</exec-date>
+         <type>WYMIANA W KANTORZE - OBCIĄŻENIE</type>
+         <description>Rachunek odbiorcy : 44102024980000810207377403 Nazwa odbiorcy :  PAWEŁ ANTONI ŚWIĘCIAK Adres odbiorcy :  UL. STAROPOGOŃSKA 57 M.141 41-200 SOSNOWIEC Tytuł :  FX49863431 EUR/PLN 4.4059 226,97 EUR -1 000,00 PLN Referencje własne zleceniodawcy : 49863431</description>
+         <amount curr="PLN">-1000.00</amount>
+         <ending-balance curr="PLN">+2334.95</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-26</order-date>
+         <exec-date>2024-01-28</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+3334.95</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-26</order-date>
+         <exec-date>2024-01-28</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834026113733975678 Lokalizacja : Adres : Smoke Shop Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-26 Oryginalna kwota operacji : 148.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-148.99</amount>
+         <ending-balance curr="PLN">+3334.96</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-26</order-date>
+         <exec-date>2024-01-28</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.90</amount>
+         <ending-balance curr="PLN">+3483.95</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-26</order-date>
+         <exec-date>2024-01-28</exec-date>
+         <type>Płatność kartą</type>
+         <description>74988854026496560541816 Lokalizacja : Adres : JMP S.A. BIEDRONKA 6403 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-26 Oryginalna kwota operacji : 54.10 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-54.10</amount>
+         <ending-balance curr="PLN">+3484.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-27</order-date>
+         <exec-date>2024-01-27</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Rachunek odbiorcy : 50102055581111129334700091 Nazwa odbiorcy :  PAWEŁ ŚWIĘCIAK Adres odbiorcy :  UL. STAROPOGOŃSKA 57/141, SOSNOWIEC41-205 Tytuł :  PRZELEW WŁASNY</description>
+         <amount curr="PLN">-2000.00</amount>
+         <ending-balance curr="PLN">+3538.95</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-27</order-date>
+         <exec-date>2024-01-27</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Rachunek odbiorcy : 13102024980000860208002299 Nazwa odbiorcy :  PAWEŁ ANTONI ŚWIĘCIAK Tytuł :  ODDAJE Referencje własne zleceniodawcy : 174192423444</description>
+         <amount curr="PLN">-1012.94</amount>
+         <ending-balance curr="PLN">+5538.95</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-25</order-date>
+         <exec-date>2024-01-27</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+6551.89</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-25</order-date>
+         <exec-date>2024-01-27</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834025113642751286 Lokalizacja : Adres : Sklep Wielobranzowy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-25 Oryginalna kwota operacji : 29.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-29.99</amount>
+         <ending-balance curr="PLN">+6551.90</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-25</order-date>
+         <exec-date>2024-01-27</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.04</amount>
+         <ending-balance curr="PLN">+6581.89</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-25</order-date>
+         <exec-date>2024-01-27</exec-date>
+         <type>Płatność kartą</type>
+         <description>74988854025496327761724 Lokalizacja : Adres : JMP S.A. BIEDRONKA 3182 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-25 Oryginalna kwota operacji : 3.96 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-3.96</amount>
+         <ending-balance curr="PLN">+6581.93</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-25</order-date>
+         <exec-date>2024-01-26</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078753546374 Numer telefonu : 48602666322 Lokalizacja : Adres : www.allegro.pl &apos;Operacja : 00000078753546374 Numer referencyjny : 00000078753546374</description>
+         <amount curr="PLN">-105.49</amount>
+         <ending-balance curr="PLN">+6585.89</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-24</order-date>
+         <exec-date>2024-01-26</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.53</amount>
+         <ending-balance curr="PLN">+6691.38</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-24</order-date>
+         <exec-date>2024-01-26</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494025241128331088 Lokalizacja : Adres : AUCHAN TYCHY Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-24 Oryginalna kwota operacji : 118.47 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-118.47</amount>
+         <ending-balance curr="PLN">+6691.91</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-26</order-date>
+         <exec-date>2024-01-26</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Rachunek odbiorcy : 27114012382444800964487227 Nazwa odbiorcy :  T-MOBILE POLSKA S.A. Adres odbiorcy :  UL. MARYNARSKA 12 WARSZAWA 02-674 Tytuł :  523787670124 Referencje własne zleceniodawcy : 174189998578</description>
+         <amount curr="PLN">-94.98</amount>
+         <ending-balance curr="PLN">+6810.38</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-25</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Rachunek odbiorcy : 50102055581111129334700091 Nazwa odbiorcy :  PAWEŁ ŚWIĘCIAK Adres odbiorcy :  UL. STAROPOGOŃSKA 57/141, SOSNOWIEC41-205 Tytuł :  PRZELEW WŁASNY</description>
+         <amount curr="PLN">-3200.00</amount>
+         <ending-balance curr="PLN">+6905.36</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-25</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Rachunek odbiorcy : 07105013991000009118238675 Nazwa odbiorcy :  ŚWIĘCIAK ELŻBIETA Adres odbiorcy :  43-100 TYCHY, ARMII KRAJOWEJ 71/13 Tytuł :  NADPŁATA KREDYTU</description>
+         <amount curr="PLN">-2000.00</amount>
+         <ending-balance curr="PLN">+10105.36</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-25</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Przelew na konto</type>
+         <description>Rachunek nadawcy : 18160014621899521310000003 Nazwa nadawcy :  TECTOCOM SP. Z O.O. JORDANA 21/5 Adres nadawcy :  40-056 KATOWICE POLSKA Tytuł :  WYNAGRODZENIE I 2024</description>
+         <amount curr="PLN">+11744.51</amount>
+         <ending-balance curr="PLN">+12105.36</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-23</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784024138822779399 Lokalizacja : Adres : BARBER SPORT Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-23 Oryginalna kwota operacji : 70.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-70.00</amount>
+         <ending-balance curr="PLN">+360.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-23</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.10</amount>
+         <ending-balance curr="PLN">+430.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-23</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784023138790451352 Lokalizacja : Adres : ZABKA ZA430 K.1 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-23 Oryginalna kwota operacji : 29.90 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-29.90</amount>
+         <ending-balance curr="PLN">+430.95</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-23</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.65</amount>
+         <ending-balance curr="PLN">+460.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-23</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494024240977046483 Lokalizacja : Adres : AUCHAN TYCHY Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-23 Oryginalna kwota operacji : 116.35 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-116.35</amount>
+         <ending-balance curr="PLN">+461.50</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-23</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+577.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-23</order-date>
+         <exec-date>2024-01-25</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834023113429750495 Lokalizacja : Adres : Sklep Wielobranzowy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-23 Oryginalna kwota operacji : 29.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-29.99</amount>
+         <ending-balance curr="PLN">+577.86</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-22</order-date>
+         <exec-date>2024-01-24</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+607.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-22</order-date>
+         <exec-date>2024-01-24</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784022138737373363 Lokalizacja : Adres : DOZ APTEKA DBAM O ZDRO Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-22 Oryginalna kwota operacji : 19.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-19.99</amount>
+         <ending-balance curr="PLN">+607.86</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-22</order-date>
+         <exec-date>2024-01-24</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.38</amount>
+         <ending-balance curr="PLN">+627.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-22</order-date>
+         <exec-date>2024-01-24</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494023240813941724 Lokalizacja : Adres : AUCHAN TYCHY Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-22 Oryginalna kwota operacji : 108.62 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-108.62</amount>
+         <ending-balance curr="PLN">+628.23</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-19</order-date>
+         <exec-date>2024-01-23</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078626801348 Numer telefonu : 48602666322 Lokalizacja : Adres : halfprice.eu &apos;Operacja : 00000078626801348 Numer referencyjny : 00000078626801348</description>
+         <amount curr="PLN">-407.97</amount>
+         <ending-balance curr="PLN">+736.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-21</order-date>
+         <exec-date>2024-01-23</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.19</amount>
+         <ending-balance curr="PLN">+1144.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-21</order-date>
+         <exec-date>2024-01-23</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494022240773131762 Lokalizacja : Adres : ORLEN STACJA NR 4604 Miasto : KATOWICE Kraj : POLSKA Data i czas operacji : 2024-01-21 Oryginalna kwota operacji : 277.81 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-277.81</amount>
+         <ending-balance curr="PLN">+1145.01</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-22</order-date>
+         <exec-date>2024-01-23</exec-date>
+         <type>Wypłata z bankomatu</type>
+         <description>PKO BP 10202498S1KA0692W200H 9894 Lokalizacja : Adres : UL. DMOWSKIEGO 27 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-22 Oryginalna kwota operacji : 100.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-100.00</amount>
+         <ending-balance curr="PLN">+1422.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-22</order-date>
+         <exec-date>2024-01-22</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Rachunek odbiorcy : 50102055581111129334700091 Nazwa odbiorcy :  PAWEŁ ŚWIĘCIAK Adres odbiorcy :  UL. STAROPOGOŃSKA 57/141, SOSNOWIEC 41-205 Tytuł :  PRZELEW WŁASNY Referencje własne zleceniodawcy : 174181339428</description>
+         <amount curr="PLN">-150.00</amount>
+         <ending-balance curr="PLN">+1522.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-21</order-date>
+         <exec-date>2024-01-21</exec-date>
+         <type>Przelew na konto</type>
+         <description>Rachunek nadawcy : 13102024980000860208002299 Nazwa nadawcy :  PAWEŁ ANTONI ŚWIĘCIAK Adres nadawcy :  UL. STAROPOGOŃSKA 57 M.141 41-200 SOSNOWIEC Tytuł :  PRZELEW ŚRODKÓW</description>
+         <amount curr="PLN">+1000.00</amount>
+         <ending-balance curr="PLN">+1672.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-19</order-date>
+         <exec-date>2024-01-21</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.10</amount>
+         <ending-balance curr="PLN">+672.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-19</order-date>
+         <exec-date>2024-01-21</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834019113130871545 Lokalizacja : Adres : Sklep Wielobranzowy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-19 Oryginalna kwota operacji : 29.90 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-29.90</amount>
+         <ending-balance curr="PLN">+672.92</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-19</order-date>
+         <exec-date>2024-01-21</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.22</amount>
+         <ending-balance curr="PLN">+702.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-19</order-date>
+         <exec-date>2024-01-21</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494020240508392962 Lokalizacja : Adres : AUCHAN TYCHY Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-19 Oryginalna kwota operacji : 133.78 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-133.78</amount>
+         <ending-balance curr="PLN">+703.04</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-18</order-date>
+         <exec-date>2024-01-20</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+836.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-18</order-date>
+         <exec-date>2024-01-20</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834018113057349047 Lokalizacja : Adres : Sklep Wielobranzowy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-18 Oryginalna kwota operacji : 29.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-29.99</amount>
+         <ending-balance curr="PLN">+836.83</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-18</order-date>
+         <exec-date>2024-01-20</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.26</amount>
+         <ending-balance curr="PLN">+866.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-18</order-date>
+         <exec-date>2024-01-20</exec-date>
+         <type>Płatność kartą</type>
+         <description>74988854018496345201215 Lokalizacja : Adres : JMP S.A. BIEDRONKA 3182 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-18 Oryginalna kwota operacji : 31.74 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-31.74</amount>
+         <ending-balance curr="PLN">+867.08</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-17</order-date>
+         <exec-date>2024-01-19</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494018240268811254 Lokalizacja : Adres : MCDONALDS 554 KRAPKO 01 Miasto : KRAPKOWICE Kraj : POLSKA Data i czas operacji : 2024-01-17 Oryginalna kwota operacji : 65.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-65.00</amount>
+         <ending-balance curr="PLN">+898.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-17</order-date>
+         <exec-date>2024-01-19</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.74</amount>
+         <ending-balance curr="PLN">+963.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-17</order-date>
+         <exec-date>2024-01-19</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494018240200320778 Lokalizacja : Adres : LIDL SIKORSKIEGO Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-17 Oryginalna kwota operacji : 47.26 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-47.26</amount>
+         <ending-balance curr="PLN">+964.56</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-17</order-date>
+         <exec-date>2024-01-17</exec-date>
+         <type>Przelew podatkowy</type>
+         <description>Rachunek odbiorcy : 02101000712221891030148350 Nazwa odbiorcy :  URZĄD SKARBOWY Adres odbiorcy :  CENTRUM ROZLICZENIOWE Nazwa i nr identyfikatora : 89103014835 Symbol formularza : PIT28 Okres płatności : 24M01</description>
+         <amount curr="PLN">-93.50</amount>
+         <ending-balance curr="PLN">+1011.82</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-14</order-date>
+         <exec-date>2024-01-16</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078528998778 Numer telefonu : 48602666322 Lokalizacja : Adres : bik.pl/ &apos;Operacja : 00000078528998778 Numer referencyjny : 00000078528998778</description>
+         <amount curr="PLN">-139.00</amount>
+         <ending-balance curr="PLN">+1105.32</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-13</order-date>
+         <exec-date>2024-01-16</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078515971214 Numer telefonu : 48602666322 Lokalizacja : Adres : store.steampowered.com &apos;Operacja : 00000078515971214 Numer referencyjny : 00000078515971214</description>
+         <amount curr="PLN">-266.74</amount>
+         <ending-balance curr="PLN">+1244.32</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-14</order-date>
+         <exec-date>2024-01-16</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.50</amount>
+         <ending-balance curr="PLN">+1511.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-14</order-date>
+         <exec-date>2024-01-16</exec-date>
+         <type>Płatność kartą</type>
+         <description>010061097 74169504014600148294840 Lokalizacja : Adres : FABRYKA FORMY CH LIBERO K Miasto : KATOWICE Kraj : POLSKA Data i czas operacji : 2024-01-14 Oryginalna kwota operacji : 4.50 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-4.50</amount>
+         <ending-balance curr="PLN">+1511.56</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-14</order-date>
+         <exec-date>2024-01-16</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.10</amount>
+         <ending-balance curr="PLN">+1516.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-14</order-date>
+         <exec-date>2024-01-16</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784014138361063199 Lokalizacja : Adres : ZABKA Z3647 K.1 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-14 Oryginalna kwota operacji : 29.90 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-29.90</amount>
+         <ending-balance curr="PLN">+1516.16</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-13</order-date>
+         <exec-date>2024-01-15</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.86</amount>
+         <ending-balance curr="PLN">+1546.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-13</order-date>
+         <exec-date>2024-01-15</exec-date>
+         <type>Płatność kartą</type>
+         <description>74988854013496469370718 Lokalizacja : Adres : JMP S.A. BIEDRONKA 3182 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-13 Oryginalna kwota operacji : 27.14 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-27.14</amount>
+         <ending-balance curr="PLN">+1546.92</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-12</order-date>
+         <exec-date>2024-01-14</exec-date>
+         <type>Płatność kartą</type>
+         <description>000414361 74143614013000078564917 Lokalizacja : Adres : UBER   *TRIP Miasto : HELP.UBER.COM Kraj : HOLANDIA Data i czas operacji : 2024-01-12 Oryginalna kwota operacji : 5.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-5.00</amount>
+         <ending-balance curr="PLN">+1574.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-12</order-date>
+         <exec-date>2024-01-14</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.10</amount>
+         <ending-balance curr="PLN">+1579.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-12</order-date>
+         <exec-date>2024-01-14</exec-date>
+         <type>Płatność kartą</type>
+         <description>000414361 74143614013000078564891 Lokalizacja : Adres : UBER   *TRIP Miasto : HELP.UBER.COM Kraj : HOLANDIA Data i czas operacji : 2024-01-12 Oryginalna kwota operacji : 51.90 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-51.90</amount>
+         <ending-balance curr="PLN">+1579.16</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-12</order-date>
+         <exec-date>2024-01-14</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.04</amount>
+         <ending-balance curr="PLN">+1631.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-12</order-date>
+         <exec-date>2024-01-14</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834012112648529857 Lokalizacja : Adres : Sklep Wielobranzowy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-12 Oryginalna kwota operacji : 119.96 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-119.96</amount>
+         <ending-balance curr="PLN">+1631.10</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-12</order-date>
+         <exec-date>2024-01-13</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784012138234926491 Lokalizacja : Adres : LORNETA Z MEDUZA Miasto : KATOWICE Kraj : POLSKA Data i czas operacji : 2024-01-12 Oryginalna kwota operacji : 30.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-30.00</amount>
+         <ending-balance curr="PLN">+1751.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-11</order-date>
+         <exec-date>2024-01-13</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494012239603672252 Lokalizacja : Adres : Zolte Drzwi Miasto : Katowice Kraj : POLSKA Data i czas operacji : 2024-01-11 Oryginalna kwota operacji : 922.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-922.00</amount>
+         <ending-balance curr="PLN">+1781.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-11</order-date>
+         <exec-date>2024-01-13</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.70</amount>
+         <ending-balance curr="PLN">+2703.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-11</order-date>
+         <exec-date>2024-01-13</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834011112479279953 Lokalizacja : Adres : Piek.-Cukiernia Scigala Miasto : Katowice Kraj : POLSKA Data i czas operacji : 2024-01-11 Oryginalna kwota operacji : 17.30 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-17.30</amount>
+         <ending-balance curr="PLN">+2703.76</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-11</order-date>
+         <exec-date>2024-01-13</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.60</amount>
+         <ending-balance curr="PLN">+2721.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-11</order-date>
+         <exec-date>2024-01-13</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494012239479213637 Lokalizacja : Adres : ORLEN STACJA NR 4475 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-11 Oryginalna kwota operacji : 259.40 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-259.40</amount>
+         <ending-balance curr="PLN">+2721.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-11</order-date>
+         <exec-date>2024-01-13</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+2981.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-11</order-date>
+         <exec-date>2024-01-13</exec-date>
+         <type>Płatność kartą</type>
+         <description>010062941 74987504011002159455084 Lokalizacja : Adres : Google Play Apps Miasto : Dublin Kraj : IRLANDIA Data i czas operacji : 2024-01-11 Oryginalna kwota operacji : 89.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-89.99</amount>
+         <ending-balance curr="PLN">+2981.07</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-12</order-date>
+         <exec-date>2024-01-12</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Nazwa odbiorcy : MOBILE-TRAFFIC-DATA SP. Z O. O. Adres odbiorcy :  UL. DRUŻBICKIEGO 11 61-693 POZNAŃ Tytuł :  ZAKUP BILETU PARKINGOWEGO Referencje własne zleceniodawcy : 174158177506</description>
+         <amount curr="PLN">-39.87</amount>
+         <ending-balance curr="PLN">+3071.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-10</order-date>
+         <exec-date>2024-01-12</exec-date>
+         <type>Płatność kartą</type>
+         <description>010061097 74169504010600107788372 Lokalizacja : Adres : BUDDA REST-CATERING Miasto : KATOWICE Kraj : POLSKA Data i czas operacji : 2024-01-10 Oryginalna kwota operacji : 120.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-120.00</amount>
+         <ending-balance curr="PLN">+3110.93</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-10</order-date>
+         <exec-date>2024-01-12</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.04</amount>
+         <ending-balance curr="PLN">+3230.93</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-10</order-date>
+         <exec-date>2024-01-12</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834010112450151057 Lokalizacja : Adres : Sklep Wielobranzowy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-10 Oryginalna kwota operacji : 119.96 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-119.96</amount>
+         <ending-balance curr="PLN">+3230.97</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-10</order-date>
+         <exec-date>2024-01-12</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+3350.93</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-10</order-date>
+         <exec-date>2024-01-12</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494011239353969503 Lokalizacja : Adres : ORLEN STACJA NR 4475 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-10 Oryginalna kwota operacji : 19.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-19.99</amount>
+         <ending-balance curr="PLN">+3350.94</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-12</order-date>
+         <exec-date>2024-01-12</exec-date>
+         <type>Przelew na telefon przychodz. zew.</type>
+         <description>Rachunek nadawcy : 27114020040000340274895353 Nazwa nadawcy :  PATRYK KOZAK Adres nadawcy :  UL.PIASTÓW 3 M.136 40-866 KATOWICE Tytuł :  PRZELEW ŚRODKÓW</description>
+         <amount curr="PLN">+150.00</amount>
+         <ending-balance curr="PLN">+3370.93</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-12</order-date>
+         <exec-date>2024-01-12</exec-date>
+         <type>Przelew na telefon przychodz. zew.</type>
+         <description>Rachunek nadawcy : 32194010765530128200000000 Nazwa nadawcy :  TOMASZ WIŚNIEWSKI Tytuł :  PRZELEW NA TELEFON BLIK</description>
+         <amount curr="PLN">+180.00</amount>
+         <ending-balance curr="PLN">+3220.93</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-11</order-date>
+         <exec-date>2024-01-11</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Nazwa odbiorcy : MOBILE-TRAFFIC-DATA SP. Z O. O. Adres odbiorcy :  UL. DRUŻBICKIEGO 11 61-693 POZNAŃ Tytuł :  ZAKUP BILETU PARKINGOWEGO Referencje własne zleceniodawcy : 174155293277</description>
+         <amount curr="PLN">-40.53</amount>
+         <ending-balance curr="PLN">+3040.93</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-09</order-date>
+         <exec-date>2024-01-11</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784010138125634081 Lokalizacja : Adres : CIACHOMANIA Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-09 Oryginalna kwota operacji : 58.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-58.00</amount>
+         <ending-balance curr="PLN">+3081.46</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-10</order-date>
+         <exec-date>2024-01-10</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Nazwa odbiorcy : MOBILE-TRAFFIC-DATA SP. Z O. O. Adres odbiorcy :  UL. DRUŻBICKIEGO 11 61-693 POZNAŃ Tytuł :  ZAKUP BILETU PARKINGOWEGO Referencje własne zleceniodawcy : 174151945251</description>
+         <amount curr="PLN">-35.20</amount>
+         <ending-balance curr="PLN">+3139.46</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-10</order-date>
+         <exec-date>2024-01-10</exec-date>
+         <type>Przelew na konto</type>
+         <description>Rachunek nadawcy : 28105013601000009227765840 Nazwa nadawcy :  DZIEDZIC PIOTR STAROPOGOŃSKA 57/141 Adres nadawcy :  41-200 SOSNOWIEC Tytuł :  Styczeń/2024</description>
+         <amount curr="PLN">+1100.00</amount>
+         <ending-balance curr="PLN">+3174.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-10</order-date>
+         <exec-date>2024-01-10</exec-date>
+         <type>Przelew na telefon przychodz. wew.</type>
+         <description>Rachunek nadawcy : 09102023840000960202052470 Nazwa nadawcy :  ADRIAN SEBASTIAN BZOWSKI Adres nadawcy :  UL KAMILA WACHLOWSKIEGO 14A 11 43-600 JAWORZNO Tytuł :  OBIADEK OD: 48533141288 DO: 48602666322 Referencje własne zleceniodawcy : 174152826291</description>
+         <amount curr="PLN">+30.00</amount>
+         <ending-balance curr="PLN">+2074.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-10</order-date>
+         <exec-date>2024-01-10</exec-date>
+         <type>Przelew na telefon przychodz. zew.</type>
+         <description>Rachunek nadawcy : 11109011860000000142790628 Nazwa nadawcy :  JAKUB ŻOGAŁA KRUPIŃSKIEGO 20 40-750 KATOWICE Tytuł :  PRZELEW NA TELEFON BLIK</description>
+         <amount curr="PLN">+30.00</amount>
+         <ending-balance curr="PLN">+2044.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-08</order-date>
+         <exec-date>2024-01-10</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+2014.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-08</order-date>
+         <exec-date>2024-01-10</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834008112251978769 Lokalizacja : Adres : Sklep Wielobranzowy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-08 Oryginalna kwota operacji : 29.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-29.99</amount>
+         <ending-balance curr="PLN">+2014.67</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-08</order-date>
+         <exec-date>2024-01-09</exec-date>
+         <type>Spłata kredytu</type>
+         <description>KAPITAŁ: 744,59 ODSETKI: 55,41 ODSETKI SKAPIT.: 0,00 07102024980000859602451680</description>
+         <amount curr="PLN">-800.00</amount>
+         <ending-balance curr="PLN">+2044.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-05</order-date>
+         <exec-date>2024-01-07</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.02</amount>
+         <ending-balance curr="PLN">+2844.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-05</order-date>
+         <exec-date>2024-01-07</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834005112100485175 Lokalizacja : Adres : Smoke Shop Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-05 Oryginalna kwota operacji : 53.98 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-53.98</amount>
+         <ending-balance curr="PLN">+2844.68</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-05</order-date>
+         <exec-date>2024-01-07</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.40</amount>
+         <ending-balance curr="PLN">+2898.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-05</order-date>
+         <exec-date>2024-01-07</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494006238989385917 Lokalizacja : Adres : McDonalds 03 Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-05 Oryginalna kwota operacji : 60.60 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-60.60</amount>
+         <ending-balance curr="PLN">+2899.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.12</amount>
+         <ending-balance curr="PLN">+2959.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Płatność kartą</type>
+         <description>010059127 74043214004081361651216 Lokalizacja : Adres : Castorama Tychy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-04 Oryginalna kwota operacji : 131.88 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-131.88</amount>
+         <ending-balance curr="PLN">+2959.78</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.20</amount>
+         <ending-balance curr="PLN">+3091.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784004137887397174 Lokalizacja : Adres : ZABKA Z5633 K.1 Miasto : SOSNOWIEC Kraj : POLSKA Data i czas operacji : 2024-01-04 Oryginalna kwota operacji : 8.80 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-8.80</amount>
+         <ending-balance curr="PLN">+3091.86</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+3100.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784004137868138134 Lokalizacja : Adres : MEDIA MARKT P513 K.101 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-04 Oryginalna kwota operacji : 29.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-29.99</amount>
+         <ending-balance curr="PLN">+3100.67</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.81</amount>
+         <ending-balance curr="PLN">+3130.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494005238817685869 Lokalizacja : Adres : LIDL SIKORSKIEGO Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-04 Oryginalna kwota operacji : 27.19 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-27.19</amount>
+         <ending-balance curr="PLN">+3131.47</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.40</amount>
+         <ending-balance curr="PLN">+3158.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-06</exec-date>
+         <type>Płatność kartą</type>
+         <description>74988854004496321521806 Lokalizacja : Adres : JMP S.A. BIEDRONKA 3182 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-04 Oryginalna kwota operacji : 79.60 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-79.60</amount>
+         <ending-balance curr="PLN">+3159.06</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-05</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Spłata kredytu</type>
+         <description>KAPITAŁ: 559,55 ODSETKI: 0,00 ODSETKI SKAPIT.: 0,00 ODSETKI KARNE: 0,00 07102024980000859602451680</description>
+         <amount curr="PLN">-559.55</amount>
+         <ending-balance curr="PLN">+3238.66</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-05</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Spłata kredytu</type>
+         <description>KAPITAŁ: 0,00 ODSETKI: 576,86 ODSETKI SKAPIT.: 0,00 ODSETKI KARNE: 0,00 07102024980000859602451680</description>
+         <amount curr="PLN">-576.86</amount>
+         <ending-balance curr="PLN">+3798.21</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-04</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078322266250 Numer telefonu : 48602666322 Lokalizacja : Adres : www.sferis.pl &apos;Operacja : 00000078322266250 Numer referencyjny : 00000078322266250</description>
+         <amount curr="PLN">-414.78</amount>
+         <ending-balance curr="PLN">+4375.07</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.01</amount>
+         <ending-balance curr="PLN">+4789.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Płatność kartą</type>
+         <description>010061097 74169504003600031053140 Lokalizacja : Adres : EURO-NET SP. Z O.O. Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-03 Oryginalna kwota operacji : 34.99 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-34.99</amount>
+         <ending-balance curr="PLN">+4789.86</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.72</amount>
+         <ending-balance curr="PLN">+4824.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Płatność kartą</type>
+         <description>010059127 74043214003081282344389 Lokalizacja : Adres : Castorama Tychy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-03 Oryginalna kwota operacji : 112.28 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-112.28</amount>
+         <ending-balance curr="PLN">+4825.57</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Płatność kartą</type>
+         <description>000498849 74230784003137820873217 Lokalizacja : Adres : TEDI 7063 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-03 Oryginalna kwota operacji : 10.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-10.00</amount>
+         <ending-balance curr="PLN">+4937.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.04</amount>
+         <ending-balance curr="PLN">+4947.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834003111928790107 Lokalizacja : Adres : Smoke Shop Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-03 Oryginalna kwota operacji : 107.96 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-107.96</amount>
+         <ending-balance curr="PLN">+4947.89</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.03</amount>
+         <ending-balance curr="PLN">+5055.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Płatność kartą</type>
+         <description>74988854003496310100696 Lokalizacja : Adres : JMP S.A. BIEDRONKA 3182 Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-03 Oryginalna kwota operacji : 30.97 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-30.97</amount>
+         <ending-balance curr="PLN">+5055.88</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-03</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Płatność kartą</type>
+         <description>010061097 74463674003540046304118 Lokalizacja : Adres : 3032 DEALZ TYCHYGEMINI Miasto : TYCHY Kraj : POLSKA Data i czas operacji : 2024-01-03 Oryginalna kwota operacji : 14.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-14.00</amount>
+         <ending-balance curr="PLN">+5086.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-02</order-date>
+         <exec-date>2024-01-05</exec-date>
+         <type>Płatność kartą</type>
+         <description>010061097 74463664003580032003127 Lokalizacja : Adres : RYANAIR     224NQZ65U Miasto : DUBLIN Kraj : IRLANDIA Data i czas operacji : 2024-01-02 Oryginalna kwota operacji : 698.00 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-698.00</amount>
+         <ending-balance curr="PLN">+5100.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-02</order-date>
+         <exec-date>2024-01-04</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.02</amount>
+         <ending-balance curr="PLN">+5798.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-02</order-date>
+         <exec-date>2024-01-04</exec-date>
+         <type>Płatność kartą</type>
+         <description>74378834002111867499471 Lokalizacja : Adres : Sklep Wielobranzowy Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-02 Oryginalna kwota operacji : 59.98 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-59.98</amount>
+         <ending-balance curr="PLN">+5798.87</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-02</order-date>
+         <exec-date>2024-01-04</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.17</amount>
+         <ending-balance curr="PLN">+5858.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-02</order-date>
+         <exec-date>2024-01-04</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838494003238577307847 Lokalizacja : Adres : LIDL SIKORSKIEGO Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2024-01-02 Oryginalna kwota operacji : 109.83 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-109.83</amount>
+         <ending-balance curr="PLN">+5859.02</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-02</order-date>
+         <exec-date>2024-01-03</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078293142076 Numer telefonu : 48602666322 Lokalizacja : Adres : castorama.pl &apos;Operacja : 00000078293142076 Numer referencyjny : 00000078293142076</description>
+         <amount curr="PLN">-76.98</amount>
+         <ending-balance curr="PLN">+5968.85</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-02</order-date>
+         <exec-date>2024-01-03</exec-date>
+         <type>Płatność web - kod mobilny</type>
+         <description>00000078286012476 Numer telefonu : 48602666322 Lokalizacja : Adres : www.allegro.pl &apos;Operacja : 00000078286012476 Numer referencyjny : 00000078286012476</description>
+         <amount curr="PLN">-229.90</amount>
+         <ending-balance curr="PLN">+6045.83</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-02</order-date>
+         <exec-date>2024-01-02</exec-date>
+         <type>Przelew z rachunku</type>
+         <description>Rachunek odbiorcy : 13102024980000860208002299 Nazwa odbiorcy :  PAWEŁ ANTONI ŚWIĘCIAK Tytuł :  X Referencje własne zleceniodawcy : 174132740561</description>
+         <amount curr="PLN">-7000.00</amount>
+         <ending-balance curr="PLN">+6275.73</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2024-01-02</order-date>
+         <exec-date>2024-01-02</exec-date>
+         <type>Przelew na konto</type>
+         <description>Rachunek nadawcy : 07105013991000009118238675 Nazwa nadawcy :  KUBICA ELŻBIETA JANINA ARMII KRAJOWEJ 71/13 Adres nadawcy :  43-100 TYCHY Tytuł :  Dorzuć do oszczędności</description>
+         <amount curr="PLN">+7000.00</amount>
+         <ending-balance curr="PLN">+13275.73</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2023-12-30</order-date>
+         <exec-date>2024-01-01</exec-date>
+         <type>Autooszczędzanie</type>
+         <description>AUTOOSZCZĘDZANIE-PRZELEW</description>
+         <amount curr="PLN">-0.50</amount>
+         <ending-balance curr="PLN">+6275.73</ending-balance>
+      </operation>
+      <operation>
+         <order-date>2023-12-30</order-date>
+         <exec-date>2024-01-01</exec-date>
+         <type>Płatność kartą</type>
+         <description>74838493365238235712135 Lokalizacja : Adres : LIDL SIKORSKIEGO Miasto : Tychy Kraj : POLSKA Data i czas operacji : 2023-12-30 Oryginalna kwota operacji : 60.50 Numer karty : 425125******6872</description>
+         <amount curr="PLN">-60.50</amount>
+         <ending-balance curr="PLN">+6276.23</ending-balance>
+      </operation>
+   </operations>
+</account-history>
