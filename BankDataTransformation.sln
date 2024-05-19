@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankDataTransformation", "BankDataTransformation.csproj", "{B6952C2F-ACA1-46F5-A87C-AD0BA47BEA5B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8417888-1A16-49E1-942D-7CEF503763BD} = {C8417888-1A16-49E1-942D-7CEF503763BD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankDataTransformationLogic", "..\BankDataTransformationLogic\BankDataTransformationLogic.csproj", "{C8417888-1A16-49E1-942D-7CEF503763BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankDataTransformation.Test", "..\BankDataTransformation_Test\BankDataTransformation.Test.csproj", "{88AA001F-131D-49A8-B867-C61CC2B97B05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6952C2F-ACA1-46F5-A87C-AD0BA47BEA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6952C2F-ACA1-46F5-A87C-AD0BA47BEA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6952C2F-ACA1-46F5-A87C-AD0BA47BEA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6952C2F-ACA1-46F5-A87C-AD0BA47BEA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8417888-1A16-49E1-942D-7CEF503763BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8417888-1A16-49E1-942D-7CEF503763BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8417888-1A16-49E1-942D-7CEF503763BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8417888-1A16-49E1-942D-7CEF503763BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88AA001F-131D-49A8-B867-C61CC2B97B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88AA001F-131D-49A8-B867-C61CC2B97B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88AA001F-131D-49A8-B867-C61CC2B97B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88AA001F-131D-49A8-B867-C61CC2B97B05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6597D2FC-12F7-4470-A8CD-ADFB7B51A5AC}
+	EndGlobalSection
+EndGlobal
