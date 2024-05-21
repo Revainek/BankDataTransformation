@@ -1,6 +1,8 @@
 ﻿using BankDataTransformationLogic.Models;
+using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 
@@ -9,14 +11,12 @@ namespace BankDataTransformationLogic.Modules
     public interface IAccountHistoryRebuilder
     {
         TransformedHistory ApplyAll(TransformedHistory currentTH);
+        TransformedHistory ApplyRule(TransformedHistory currentTH,BuildRule buildRule);
         BuilderRules GetRules();
         void AddRule();
         void RemoveRule();
-
         void UndoRuleApplication();
-        void ResetRules();
-
-        
+      
     }
     public class AccountHistoryRebuilder : IAccountHistoryRebuilder
     {
@@ -24,7 +24,8 @@ namespace BankDataTransformationLogic.Modules
 
         public AccountHistoryRebuilder()
         {
-            string defaultSavePath = "";
+           
+            string defaultSavePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\BankDataTransformation\\BuildRules.xml";
             InitializeRules(defaultSavePath);
         }
 
@@ -33,15 +34,13 @@ namespace BankDataTransformationLogic.Modules
             throw new NotImplementedException();
         }
 
-        public void ApplyAll(TransformedHistory currentTH)
+        public TransformedHistory ApplyRule(TransformedHistory currentTH, BuildRule buildRule)
         {
-            if (_brules != null)
+            if (buildRule!=null)
             {
-                foreach (var rule in _brules)
-                {
-                    currentTH =  _brules.ApplyRule(currentTH,rule.Name);
-                }
+                currentTH = _brules.ApplyRule(currentTH, buildRule.Name);
             }
+            return currentTH;
         }
 
         public BuilderRules GetRules()

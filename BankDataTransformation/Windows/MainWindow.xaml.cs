@@ -49,12 +49,12 @@ namespace BankDataTransformation.Windows
 
         private void DeleteRule_BtnClick(object sender, RoutedEventArgs e)
         {
-
+            _windowVM.DeleteRule();
         }
 
         private void ApplySingleRule_BtnClick(object sender, RoutedEventArgs e)
         {
-
+            _windowVM.ApplyRule();
         }
         private void ApplyAllRules_BtnClick(object sender, RoutedEventArgs e)
         {
@@ -63,7 +63,7 @@ namespace BankDataTransformation.Windows
 
         private void ResetRules_BtnClick(object sender, RoutedEventArgs e)
         {
-
+            _windowVM.ResetRules();
         }
     }
 }

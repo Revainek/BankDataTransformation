@@ -11,7 +11,7 @@ using static BankDataTransformationLogic.Models.BuildRule;
 
 namespace BankDataTransformationLogic.Models
 {
-    [Serializable,XmlInclude(typeof(BuildRule))]
+    [Serializable,XmlInclude(typeof(BuildRule)), XmlInclude(typeof(STransformation))]
     public class BuilderRules : List<BuildRule>
     {
         public List<string> GetAvailableRules()
@@ -48,6 +48,24 @@ namespace BankDataTransformationLogic.Models
         public static BuilderRules LoadRules(string path)
         {
             BuilderRules _BRules = new BuilderRules();
+
+
+            if (File.Exists(path)==false)
+            {
+                try
+                {
+                    if (Directory.Exists(path)==false)
+                    {
+                        Directory.CreateDirectory(Path.GetDirectoryName(path));
+                    }
+                    _BRules.SaveRules(path);
+                }
+                catch (IOException ex)
+                {
+                   
+                }
+            }
+            
             try
             {
                 using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read))
@@ -60,265 +78,9 @@ namespace BankDataTransformationLogic.Models
             catch (Exception)
             {
             }
-            // Temporary test
-
-            _BRules.Add(new BuildRule() 
-            { 
-                Name = "Filter AutoSaver", 
-                RuleValue = "x=>x.PreviewDescription.Contains(\"AUTOOSZCZĘDZANIE\")==false",
-                RuleType=RuleTypeEnum.Filter 
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "Filter Incomes",
-                RuleValue = "x=>x.entry.Amount<0",
-                RuleType = RuleTypeEnum.Filter
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "Reverse Amount Values",
-                RuleValue = "x=>x.entry.Amount<0",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            { 
-                                            new Tuple<string,STransformation>("PreviewAmount",new STransformation("Replace","-","")),
-                                            new Tuple<string,STransformation>("PreviewAmount",new STransformation("Replace",",","."))
-                                            },
-                
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "Filter Internal account Transfers",
-                RuleValue = "x=>(x.entry.ReceiverInformation.Name.Contains(\"PAWEŁ\") && x.entry.ReceiverInformation.Name.Contains(\"ŚWIĘCIAK\"))==false",
-                RuleType = RuleTypeEnum.Filter
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "FuelRule",
-                RuleValue = "x=>x.entry.Description.Contains(\"ORLEN\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Tankowanie Ford")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","benzyna")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "EatingAtWork1",
-                RuleValue = "x=>x.entry.Description.Contains(\"Piek.-Cukiernia Scigala\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Cukiernia pod pracą")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","jedzenie")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "EatingAtWork2",
-                RuleValue = "x=>x.entry.Description.Contains(\"BUDDA\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Buddha praca")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","jedzenie miasto")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "Clothes1",
-                RuleValue = "x=>x.entry.Description.Contains(\"zalando\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Zalando zakupy")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","odzież i obuwie")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "EatingOut1",
-                RuleValue = "x=>x.entry.Description.Contains(\"MCDONALDS\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Jedzenie McDonalds")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","jedzenie miasto")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "EatingOut1",
-                RuleValue = "x=>x.entry.Description.Contains(\"CIACHOMANIA\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Ciachomania ciasta")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","jedzenie")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-
-
-            _BRules.Add(new BuildRule()
-                 {
-                     Name = "Diaries1",
-                     RuleValue = "x=>x.entry.Description.Contains(\"LIDL\")==true",
-                     RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Zakupy Lidl")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","jedzenie")),
-                                            },
-
-                     RuleType = RuleTypeEnum.Transform
-                 });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "Diaries2",
-                RuleValue = "x=>x.entry.Description.Contains(\"AUCHAN\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Zakupy Auchan")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","jedzenie")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            }); 
-                _BRules.Add(new BuildRule()
-                {
-                    Name = "Diaries3",
-                    RuleValue = "x=>x.entry.Description.Contains(\"JMP S.A. BIEDRONKA\")==true",
-                    RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Zakupy Biedra")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","jedzenie")),
-                                            },
-
-                    RuleType = RuleTypeEnum.Transform
-                });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "E-Cigarettes1",
-                RuleValue = "x=>x.entry.Description.Contains(\"Smoke Shop\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","E Fajki w Gemini")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","papierosy")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "E-Cigarettes2",
-                RuleValue = "x=>x.entry.Description.Contains(\"Adres : Sklep Wielobranzowy Miasto : Tychy Kraj : POLSKA\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","E Fajki w Gemini")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","papierosy")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "E-Cigarettes3",
-                RuleValue = "x=>x.entry.Description.Contains(\"ZABKA\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Zakupy żabka")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","?")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-
-
-            _BRules.Add(new BuildRule()
-            {
-                Name = "HomeShopping1",
-                RuleValue = "x=>x.entry.Description.Contains(\"Castorama\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Zakupy Castorama")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","do mieszkania")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "HomeShopping2",
-                RuleValue = "x=>x.entry.Description.Contains(\"DOZ APTEKA\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Zakupy Castorama")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","leki")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "Gaming1",
-                RuleValue = "x=>x.entry.Description.Contains(\"store.steampowered.com\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Gry na steam")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","hobby i sporty")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-
-            _BRules.Add(new BuildRule()
-            {
-                Name = "Transport1",
-                RuleValue = "x=>x.entry.Description.Contains(\"PARKING\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Parkowanie")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","taxi i bilety")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-            _BRules.Add(new BuildRule()
-            {
-                Name = "Transport2",
-                RuleValue = "x=>x.entry.Description.Contains(\"UBER.COM\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","Uber Taxi")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","taxi i bilety")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-
-            _BRules.Add(new BuildRule()
-            {
-                Name = "Systematic1",
-                RuleValue = "x=>x.entry.Description.Contains(\"PIT28\")==true",
-                RuleValueSetters = new List<Tuple<string, STransformation>>()
-                                            {
-                    new Tuple<string,STransformation>("PreviewDescription",new STransformation("NewValue","podatek najem")),
-                    new Tuple<string,STransformation>("PreviewCategory",new STransformation("NewValue","opłaty mieszkanie (stałe)")),
-                                            },
-
-                RuleType = RuleTypeEnum.Transform
-            });
-
+           
             return _BRules;
-
-       
-
+         
         }
 
         internal TransformedHistory ApplyRule(TransformedHistory currentTH, string name)
@@ -338,9 +100,9 @@ namespace BankDataTransformationLogic.Models
                     {
                         foreach (var item in currentTH.AsQueryable().Where(Rule.RuleValue))
                         {
-                            var itemPropValue = item.GetType().GetProperty(rvs.Item1).GetValue(item, null) as string;
+                            var itemPropValue = item.GetType().GetProperty(rvs.First).GetValue(item, null) as string;
 
-                            item.GetType().GetProperty(rvs.Item1).SetValue(item, rvs.Item2.Perform(itemPropValue), null);
+                            item.GetType().GetProperty(rvs.First).SetValue(item, rvs.Second.Perform(itemPropValue), null);
                         }
                     }
                 }
@@ -348,29 +110,72 @@ namespace BankDataTransformationLogic.Models
             }
             return currentTH;
         }
+        #region TestValues
+        /// <summary>
+        /// Test values for overview of initial possibilities
+        /// </summary>
+        private void TestValues()
+        {
+            this.Add(new BuildRule()
+            {
+                Name = "Filter Test",
+                RuleValue = "x=>x.PreviewDescription.Contains(\"AUTOOSZCZĘDZANIE\")==false",
+                RuleType = RuleTypeEnum.Filter
+            });
+            this.Add(new BuildRule()
+            {
+                Name = "Replace Values Test",
+                RuleValue = "x=>x.entry.Amount<0",
+                RuleValueSetters = new List<ObjectPair<string, STransformation>>()
+                                 {
+                                 new ObjectPair<string,STransformation>("PreviewAmount",new STransformation("Replace","-","")),
+                                 new ObjectPair<string,STransformation>("PreviewAmount",new STransformation("Replace",",","."))
+                                 },
+
+                RuleType = RuleTypeEnum.Transform
+            });
+            this.Add(new BuildRule()
+            {
+                Name = "New Value Test",
+                RuleValue = "x=>x.entry.Description.Contains(\"ORLEN\")==true",
+                RuleValueSetters = new List<ObjectPair<string, STransformation>>()
+                                 {
+                 new ObjectPair<string,STransformation>("PreviewDescription",new STransformation("NewValue","Tankowanie")),
+                 new ObjectPair<string,STransformation>("PreviewCategory",new STransformation("NewValue","Benzyna")),
+                                 },
+
+                RuleType = RuleTypeEnum.Transform
+            });
+
+        }
+        #endregion
     }
 
-    [Serializable]
+    [Serializable,XmlInclude(typeof(ObjectPair<string, STransformation>))]
     public class BuildRule
     {
       public string Name { get; set; }
       public RuleTypeEnum RuleType { get; set; }
      
       public string RuleValue { get; set; }
-      public List<Tuple<string, STransformation>> RuleValueSetters { get; set; }
+      public List<ObjectPair<string, STransformation>> RuleValueSetters { get; set; }
     }
     public enum RuleTypeEnum
     {
         Filter,
         Transform
     }
+    [Serializable]
     public class STransformation
     {
         public string Type { get; set; }
 
-        private string P1 { get; set; }
-        private string P2 { get; set; }
-
+        public string P1 { get;  set; }
+        public string P2 { get;  set; }
+        public STransformation()
+        {
+                
+        }
         public STransformation(string type, string p1, string p2 = "")
         {
             Type = type;

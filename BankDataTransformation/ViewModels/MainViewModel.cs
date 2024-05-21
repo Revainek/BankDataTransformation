@@ -20,8 +20,10 @@ namespace BankDataTransformation.ViewModels
         public TransformedHistory TransformedAccountHistory { get; }
         public BuilderRules AvailableBuilderRules { get; }
         void ApplyAllRules();
+        void ApplyRule();
+        void DeleteRule();
         void LoadFileFromPath();
-  
+        void ResetRules();
     }
     public class MainViewModel : IMainViewModel, INotifyPropertyChanged
     {
@@ -113,6 +115,35 @@ namespace BankDataTransformation.ViewModels
                 CurrentFile = dialog.FileName;
                 await LoadSelectedFile();
             }
+        }
+
+        public void ApplyRule()
+        {
+            if (CurrentSelectedRule>-1)
+            {
+                TransformedAccountHistory = _accHistoryBuilder.ApplyRule(TransformedAccountHistory,AvailableBuilderRules[CurrentSelectedRule]);
+            }
+        }
+
+        public void DeleteRule()
+        {
+           if (CurrentSelectedRule>-1)
+            {
+                try
+                {
+                    AvailableBuilderRules.RemoveAt(CurrentSelectedRule);
+                    NotifyPropertyChanged(nameof(AvailableBuilderRules));
+                }
+                catch (IndexOutOfRangeException)
+                {
+
+                }
+            }
+        }
+
+        public async void ResetRules()
+        {
+           await LoadSelectedFile();
         }
 
         #region Properties
